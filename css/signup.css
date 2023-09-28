@@ -13,9 +13,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://images.pexels.com/photos/15591206/pexels-photo-15591206/free-photo-of-under.jpeg?");
+    background-position: bottom;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .signup{
-    background-color: rgb(209, 160, 160);
+    backdrop-filter: blur(50px);
     text-align: center;
     border-radius: 10px;
 }
@@ -33,7 +38,7 @@ form{
 
 }
 .input-box label{
- color: black;
+ color:hotpink;
  font-size: 1rem;
  font-weight: 600;
 }
@@ -49,4 +54,10 @@ form{
     font-size: 1rem;
     font-weight: 600;
     background: hotpink; 
+}
+h1{
+    color: white;
+}
+p{
+    color:white;
 }
